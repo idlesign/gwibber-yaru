@@ -1,1 +1,1 @@
-__all__ = ["twitter", "identica", "flickr", "facebook", "friendfeed", "statusnet", "digg", "qaiku"]
+__all__ = ["twitter", "identica", "flickr", "facebook", "friendfeed", "statusnet", "digg", "qaiku", "yaru"]

@@ -4,3 +4,12 @@ Gwibber
 Gwibber is a status management client application for the GNOME desktop
 environment. It can transmit status message updates to Twitter, Jaiku,
 Facebook, and Pidgin.
+
+
+
+gwibber-yaru
+------------
+
+gwibber-yaru is a Gwibber with Ya.ru blog-service support. 
+Based on Gwibber 2.30 (rev 739).
+gwibber-yaru depends on pyyaru library - http://github.com/idlesign/pyyaru

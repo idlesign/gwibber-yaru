@@ -3,7 +3,7 @@
 
 import multiprocessing, threading, traceback, json, time
 import gobject, dbus, dbus.service, mx.DateTime
-import twitter, identica, statusnet, flickr, facebook
+import twitter, identica, statusnet, flickr, facebook, yaru
 import qaiku, friendfeed, digg
 
 import urlshorter
@@ -37,6 +37,7 @@ PROTOCOLS = {
   "statusnet": statusnet,
   "digg": digg,
   "qaiku": qaiku,
+  "yaru": yaru,
 }
 
 FEATURES = json.loads(GWIBBER_OPERATIONS)
