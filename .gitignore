@@ -1,0 +1,8 @@
+*.pyc
+.project
+.pydevproject
+.settings
+.bzr
+gwibber/semantic.cache
+semantic.cache
+*.mo
