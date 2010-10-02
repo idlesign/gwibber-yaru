@@ -1,0 +1,65 @@
+#!/usr/bin/env python
+#
+# Copyright (C) 2010 Canonical Ltd
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License version 2 as
+# published by the Free Software Foundation.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+# Copyright (C) 2010 Ken VanDine <ken.vandine@canonical.com>
+#
+# Launch script for Gwibber Preferences
+#
+
+
+import sys
+from os.path import join, dirname, exists, realpath, abspath
+import gtk, gobject, wnck
+
+
+######################################################################
+# Don't run again if we are already running
+progname = "gwibber-preferences"
+screen = wnck.screen_get_default()
+while gtk.events_pending():
+  gtk.main_iteration()
+for w in screen.get_windows():
+  if w.get_application().get_name() == progname:
+    import time
+    w.activate(int(time.time()))
+    w.move_to_workspace(screen.get_active_workspace())
+    quit()
+
+######################################################################
+# Setup path
+
+LAUNCH_DIR = abspath(sys.path[0])
+source_tree_gwibber = join(LAUNCH_DIR, "..", "gwibber")
+
+# If we were invoked from a Gwibber source directory add that as the
+# preferred module path ...
+if exists(join(source_tree_gwibber, "client.py")):
+    sys.path.insert(0, realpath(dirname(source_tree_gwibber)))
+    try:
+        from gwibber.microblog.util import log
+        log.logger.name = "Gwibber Preferences"
+        log.logger.info("Running from the source tree")
+        from gwibber import preferences
+    finally:
+        del sys.path[0]
+else:
+    from gwibber.microblog.util import log
+    log.logger.name = "Gwibber Preferences"
+    log.logger.info("Running from the system path")
+    from gwibber import preferences
+
+preferences.GwibberPreferences()
+gtk.main()

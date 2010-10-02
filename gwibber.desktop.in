@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Gwibber
+_GenericName=Social Client
+_X-GNOME-FullName=Gwibber Social Client
+Type=Application
+_Comment=Update your microblog and follow your contacts' statuses
+Exec=gwibber
+Icon=gwibber
+Categories=GTK;GNOME;Network;
+X-GNOME-Gettext-Domain=gwibber

@@ -1,0 +1,42 @@
+Installing Gwibber
+==================
+
+  Requirements
+  ------------
+
+	Please note that the version numbers listed below only reflect my test
+	environment. Gwibber is known to work with those specific versions, but
+	will probably work fine on most current desktop distributions that include
+	Python's WebKit GTK+ bindings.
+
+    * python (2.5)
+    * python-dbus (0.80.2)
+    * python-gtk2 (2.10.4)
+    * python-gconf (2.18.0)
+    * python-imaging (1.1.6)
+    * python-notify (0.1.1)
+    * python-webkitgtk (1.0.1)
+    * python-simplejson (1.9.1)
+    * python-egenix-mxdatetime (3.0.0)
+    * python-distutils-extra
+    * python-feedparser (4.1)
+    * python-xdg (0.15)
+    * python-mako (0.2.2)
+    * python-pycurl
+
+  Installation
+  ------------
+
+	Gwibber uses Python's distutils framework for installation. In order to
+	install Gwibber, you will need root access. To install Gwibber, perform
+	the following command as root:
+
+      $ python setup.py install
+
+  Run Gwibber
+  -----------
+
+	If you installed Gwibber using the setup.py script, you can launch the
+	program by typing "gwibber" at the command line. If you want to run
+	Gwibber without installing it, start "bin/gwibber" from within the
+	Gwibber directory.

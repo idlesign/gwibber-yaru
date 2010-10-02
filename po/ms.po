@@ -1,0 +1,116 @@
+# Malay translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-01-30 04:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Malay <ms@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr ""
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Pelanggan Mikroblog untuk GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr ""
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Kirim"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr ""
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr ""
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr ""
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Akaun"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr ""
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "Tentang"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr ""
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr ""
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Dapatkan Pertolongan Atas Talian"
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Terjemahkan Aplikasi Ini"
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr ""

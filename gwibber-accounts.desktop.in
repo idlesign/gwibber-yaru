@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Broadcast Accounts
+_GenericName=Broadcast Accounts
+_X-GNOME-FullName=Broadcast Accounts
+Type=Application
+_Comment=Add, edit, and delete your broadcast accounts
+Exec=gwibber-accounts
+Icon=gwibber
+Categories=GTK;GNOME;Settings;
+X-GNOME-Gettext-Domain=gwibber

@@ -1,0 +1,261 @@
+# Turkish translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-01-30 04:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr ""
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "GNOME için mikroblog istemcisi"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr ""
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Gönder"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr ""
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "_Yardım"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Yenile"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Ara"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Hesaplar"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Tercihler"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "_Hakkında"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "Çı_k"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "_Pencereyi Kapat"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Çevrimiçi Destek Al"
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Bu Uygulamayı Çevir"
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr ""
+
+#~ msgid "_Send Messages"
+#~ msgstr "Mesajları _Gönder"
+
+#~ msgid "_Receive Messages"
+#~ msgstr "_Mesajları Al"
+
+#~ msgid "Microblogging Client"
+#~ msgstr "Mikroblog İstemcisi"
+
+#~ msgid "Gwibber Microblogging Client"
+#~ msgstr "Gwibber Mikroblog İstemcisi"
+
+#~ msgid "Messages"
+#~ msgstr "Mesajlar"
+
+#~ msgid "Preferences"
+#~ msgstr "Ayarlar"
+
+#~ msgid ""
+#~ "<b>2.</b> Copy and paste the one-time code into the entry field below and "
+#~ "then click the Apply button."
+#~ msgstr ""
+#~ "<b>2.</b> Bu tek seferlik kodu kopyalayıp, aşağıdaki giriş kısmına "
+#~ "yapıştırın ve uygula butonuna basın."
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "<b>Hesap Durumu</b>"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "<b>Hesap bilgisi</b>"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>Deneysel</b>"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Görünüm</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Güncelle</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>Bildiri</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Tema</b>"
+
+#~ msgid "Digg Color:"
+#~ msgstr "Digg Rengi:"
+
+#~ msgid "Comment Color:"
+#~ msgstr "Yorum Rengi:"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "Durum Değişiklerine izin ver."
+
+#~ msgid "About Gwibber"
+#~ msgstr "Gwibber hakkında"
+
+#~ msgid ""
+#~ "Gwibber is an open source microblogging client for GNOME that supports "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca and other popular social web "
+#~ "services."
+#~ msgstr ""
+#~ "Gwibber,  GNOME için yapılmış; Twitter, Jaiku, Facebook, Pownce, Identi.ca "
+#~ "ve diğer popüler sosyal ağları destekleyen bir açık kaynak kodlu mikrogünlük "
+#~ "istemcisidir"
+
+#~ msgid "Gwibber Web Site"
+#~ msgstr "Gwibber Web Sitesi"
+
+#~ msgid "Message Color:"
+#~ msgstr "Mesaj Rengi:"
+
+#~ msgid "Domain:"
+#~ msgstr "Alan adı:"
+
+#~ msgid ""
+#~ "<b>1.</b> Click the button below to request\n"
+#~ "a Gwibber login code from Facebook."
+#~ msgstr ""
+#~ "<b>1.</b> Facebook'tan yeni bir Gwibber bağlantı \n"
+#~ "kodu almak için butona tıklayın."
+
+#~ msgid "API key:"
+#~ msgstr "API anahtarı:"
+
+#~ msgid ""
+#~ "<b>3.</b> Click the button below to give Gwibber permission to set your "
+#~ "Facebook status."
+#~ msgstr ""
+#~ "<b>3.</b> Gwibber'a Facebook'taki durumunuzu değiştirme yetkisi vermek için "
+#~ "butona tıklayın."
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Pencere Davranışı</b>"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "Kapattığımda simge durumuna küçült"
+
+#~ msgid "Password:"
+#~ msgstr "Şifre:"
+
+#~ msgid "Request Login Code"
+#~ msgstr "Giriş Kodu İste"
+
+#~ msgid "Append colon to username when replying"
+#~ msgstr "Cevap verirken kullanıcı isminden sonra iki nokta ekle"
+
+#~ msgid "Feed URL:"
+#~ msgstr "Besleme adresi:"
+
+#~ msgid "Facebook Authorization"
+#~ msgstr "Facebook yetkilendirmesi"
+
+#~ msgid "Minutes between refresh:  "
+#~ msgstr "Yenileme için bekleme süresi:  "
+
+#~ msgid "App Key:"
+#~ msgstr "Uygulama Anahtarı:"
+
+#~ msgid "Display bubbles"
+#~ msgstr "Bildiri balonlarını göster"
+
+#~ msgid "Username:"
+#~ msgstr "Kullanıcı Adı:"
+
+#~ msgid "Show tray icon"
+#~ msgstr "Sistem çekmecesi simgesini göster"
+
+#~ msgid "_Authorize Gwibber"
+#~ msgstr "Gwibber'a yetki ver"
+
+#~ msgid "Hide taskbar entry"
+#~ msgstr "Görev çubuğunda gösterme"
+
+#~ msgid "Copyright (C) 2007-2009 Gwibber Team"
+#~ msgstr "Telif Hakkı (C) 2007-2009 Gwibber Team"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Eylül Cavaç https://launchpad.net/~eylulcavac\n"
+#~ "  Volkan Esgel https://launchpad.net/~vesgel\n"
+#~ "  Yigit Güneli https://launchpad.net/~yiit"

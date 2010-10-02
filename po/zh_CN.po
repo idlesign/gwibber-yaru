@@ -1,0 +1,166 @@
+# Chinese (Simplified) translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-01-30 04:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr ""
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "GNOME 的微博客客户端"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr ""
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "发送"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "硅博(_G)"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr ""
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "帮助 (_H)"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "刷新 (_R)"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "搜索 (_S)"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "帐户 (_A)"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "首选项 (_P)"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "关于 (_A)"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "退出 (_Q)"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "关闭窗口 (_C)"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "获得联机帮助..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "翻译此应用程序..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr ""
+
+#~ msgid "Microblogging Client"
+#~ msgstr "微博客客户端"
+
+#~ msgid "Preferences"
+#~ msgstr "首选项"
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "<b>帐户状态</b>"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "<b>帐户信息</b>"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>外观</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>更新</b>"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>窗口行为</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>通知</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>主题</b>"
+
+#~ msgid "Comment Color:"
+#~ msgstr "评论字体颜色："
+
+#~ msgid "Minutes between refresh:  "
+#~ msgstr "刷新间隔时间（分钟）:  "
+
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+#~ msgid "Username:"
+#~ msgstr "用户名："
+
+#~ msgid "Request Login Code"
+#~ msgstr "申请登录密码"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>实验性</b>"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Jonathan Lumb https://launchpad.net/~jonolumb"

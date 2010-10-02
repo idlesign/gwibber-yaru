@@ -1,0 +1,178 @@
+# Welsh translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-01-30 04:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Welsh <cy@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr ""
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Cleient microblogio ar gyfer GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr ""
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Anfon"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr ""
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "C_ymorth"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Adnewyddu"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Chwilio"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Cyfrifon"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "Dewisiadau"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "_Ynghylch"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Ymadael"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "_Cau'r Ffenestr"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Cael Cymorth Arlein..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Cyfieithu'r rhaglen hon..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr ""
+
+#~ msgid "Microblogging Client"
+#~ msgstr "Cleient Microblogio"
+
+#~ msgid "Messages"
+#~ msgstr "Negeseuon"
+
+#~ msgid "Preferences"
+#~ msgstr "Hoffterau"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Thema</b>"
+
+#~ msgid "About Gwibber"
+#~ msgstr "Ynghylch Gwibber"
+
+#~ msgid "Domain:"
+#~ msgstr "Parth:"
+
+#~ msgid "Username:"
+#~ msgstr "Enw defnyddiwr:"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or\n"
+#~ "modify it under the terms of the GNU General Public License\n"
+#~ "as published by the Free Software Foundation; either version 2\n"
+#~ "of the License, or (at your option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Mae'r rhaglen hwn yn feddalwedd rhydd; cewch ei ailddosbarthu a/neu\n"
+#~ "ei newid o dan amodau'r Drwydded Gyhoeddus Gyffredinol GNU fel y'i\n"
+#~ "cyhoeddwyd gan y Free Software Foundation; un ai fersiwn 2 o'r\n"
+#~ "drwydded neu yn ôl eich dewis) unrhyw fersiwn arall.\n"
+#~ "\n"
+#~ "Mae'r rhaglen yn cael ei ddosbarthu yn y gobaith y byddwch yn ei gael\n"
+#~ "yn ddefnyddiol, on HEB UNRHYW WARANT; heb hyd yn oed awgrym\n"
+#~ "o warant MASNACHOL neu ADDASRWYDD AR GYFER UNRHYW BWRPAS.\n"
+#~ "Gweler y Drwydded Gyhoeddus Gyffredin am ragor o wybodaeth.\n"
+#~ "\n"
+#~ "Dylech fod wedi derbyn copi o'r Drwydded gyda'r rhaglen; os nad cysylltwch\n"
+#~ "â 'r Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,\n"
+#~ "Boston, MA 02110-1301, UDA.\n"
+
+#~ msgid "Password:"
+#~ msgstr "Cyfrinair:"
+
+#~ msgid "_Send Messages"
+#~ msgstr "_Anfon negeseuon"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Thomas Thurman https://launchpad.net/~marnanel"

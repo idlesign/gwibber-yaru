@@ -1,0 +1,261 @@
+# Spanish translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-01-30 04:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr ""
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Cliente de microblogging para GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr ""
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Enviar"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr ""
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "Ay_uda"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Actualizar"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Buscar"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Cuentas"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Preferencias"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "Acerca _de"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Salir"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "_Cerrar ventana"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Obtener ayuda en línea..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Traducir esta aplicación..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr ""
+
+#~ msgid "Messages"
+#~ msgstr "Mensajes"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencias"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Apariencia</b>"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>Experimental</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>Notificación</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Tema</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Actualizar</b>"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Comportamiento de la ventana</b>"
+
+#~ msgid "About Gwibber"
+#~ msgstr "Acerca de Gwibber"
+
+#~ msgid "Domain:"
+#~ msgstr "Dominio:"
+
+#~ msgid "Facebook Authorization"
+#~ msgstr "Autorización de Facebook"
+
+#~ msgid "Password:"
+#~ msgstr "Contraseña:"
+
+#~ msgid "Request Login Code"
+#~ msgstr "Pedir código de autenticación"
+
+#~ msgid "Show tray icon"
+#~ msgstr "Mostrar icono en el área de notificación"
+
+#~ msgid "_Authorize Gwibber"
+#~ msgstr "_Autorizar Gwibber"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "Minimizar en el área de notificación al cerrar"
+
+#~ msgid "Minutes between refresh:  "
+#~ msgstr "Minutos entre actualizaciones:  "
+
+#~ msgid "Gwibber Microblogging Client"
+#~ msgstr "Cliente de microblogging Gwibber"
+
+#~ msgid "_Receive Messages"
+#~ msgstr "_Recibir mensajes"
+
+#~ msgid "_Send Messages"
+#~ msgstr "_Enviar mensajes"
+
+#~ msgid "Microblogging Client"
+#~ msgstr "Cliente de microblogging"
+
+#~ msgid "Display bubbles"
+#~ msgstr "Mostrar notificaciones emergentes"
+
+#~ msgid ""
+#~ "Gwibber is an open source microblogging client for GNOME that supports "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca and other popular social web "
+#~ "services."
+#~ msgstr ""
+#~ "Gwibber es un cliente abierto de microblogging para GNOME que soporta "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca y otros servicios web sociales "
+#~ "populares."
+
+#~ msgid "Feed URL:"
+#~ msgstr "URL del agregador:"
+
+#~ msgid "Message Color:"
+#~ msgstr "Color de mensajes:"
+
+#~ msgid "Hide taskbar entry"
+#~ msgstr "Esconder entrada en la barra de tareas"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "<b>Información de la cuenta</b>"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "Autorizar cambio de estado"
+
+#~ msgid ""
+#~ "<b>2.</b> Copy and paste the one-time code into the entry field below and "
+#~ "then click the Apply button."
+#~ msgstr ""
+#~ "<b>2.</b> Copie y pegue el código único en el campo indicado abajo y pulse "
+#~ "el botón Aplicar."
+
+#~ msgid ""
+#~ "<b>3.</b> Click the button below to give Gwibber permission to set your "
+#~ "Facebook status."
+#~ msgstr ""
+#~ "<b>3.</b> Pulse el siguiente botón para otorgar a Gwibber permisos para "
+#~ "cambiar su mensaje de estado en Facebook."
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "<b>Estado de la cuenta</b>"
+
+#~ msgid "Append colon to username when replying"
+#~ msgstr "Añadir dos puntos al nombre de usuario al contestar"
+
+#~ msgid "Gwibber Web Site"
+#~ msgstr "Sitio web de Gwibber"
+
+#~ msgid "Copyright (C) 2007-2009 Gwibber Team"
+#~ msgstr "Copyright (C) 2007-2009 Gwibber Team"
+
+#~ msgid "Digg Color:"
+#~ msgstr "Color de Digg:"
+
+#~ msgid "App Key:"
+#~ msgstr "Clave de la aplicación:"
+
+#~ msgid "API key:"
+#~ msgstr "Clave API:"
+
+#~ msgid "Comment Color:"
+#~ msgstr "Color del comentario:"
+
+#~ msgid "Get Ping.fm key"
+#~ msgstr "Obtener clave de Ping.fm"
+
+#~ msgid "Username:"
+#~ msgstr "Usuario:"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Edgardo Fredz https://launchpad.net/~edgardo-fredz\n"
+#~ "  Elías Portugal Luna https://launchpad.net/~pl402\n"
+#~ "  Grillo https://launchpad.net/~novalkar\n"
+#~ "  Marco Ariel Ceccardi Pons https://launchpad.net/~ladespensadelasgard\n"
+#~ "  deimidis https://launchpad.net/~guillermo-movia\n"
+#~ "  pcollaog https://launchpad.net/~pcollaog\n"
+#~ "  sebikul https://launchpad.net/~sebikul"

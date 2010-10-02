@@ -1,0 +1,22 @@
+include AUTHORS COPYING INSTALL README
+include MANIFEST.in MANIFEST
+include com.Gwibber.Service.service
+include com.Gwibber.Error.service
+include com.GwibberClient.service
+include po/*
+include ui/*
+include ui/templates/*
+include ui/themes/*/*
+include ui/themes/*/*/*
+include ui/icons/breakdance/16x16/*
+include ui/icons/breakdance/22x22/*
+include ui/icons/breakdance/scalable/*
+include ui/icons/streams/16x16/*
+include ui/icons/streams/24x24/*
+include ui/icons/streams/scalable/*
+include gwibber.1
+include gwibber-poster.1
+include gwibber.desktop.in gwibber.desktop
+include gwibber-preferences.desktop.in gwibber-preferences.desktop
+include gwibber-accounts.desktop.in gwibber-accounts.desktop
+include indicator/gwibber

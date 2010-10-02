@@ -1,0 +1,295 @@
+# Danish translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-01-30 04:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Danish <da@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr ""
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Mikroblogging klient til GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr ""
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Send"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "G_wibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr ""
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Genopfrisk"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Søg"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Konti"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Indstillinger"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "_Om dette program"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Luk"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "_Luk Vindue"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Få hjælp via internettet"
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Oversæt dette program"
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr ""
+
+#~ msgid "Messages"
+#~ msgstr "Beskeder"
+
+#~ msgid "_Receive Messages"
+#~ msgstr "_Modtag Beskeder"
+
+#~ msgid "Microblogging Client"
+#~ msgstr "Mikroblogging klient"
+
+#~ msgid "_Send Messages"
+#~ msgstr "_Send Beskeder"
+
+#~ msgid "Gwibber Microblogging Client"
+#~ msgstr "Gwibber mikroblogging klient"
+
+#~ msgid "Preferences"
+#~ msgstr "Indstillinger"
+
+#~ msgid ""
+#~ "<b>3.</b> Click the button below to give Gwibber permission to set your "
+#~ "Facebook status."
+#~ msgstr ""
+#~ "<b>3.</b> Tryk på knappen nedenfor for at tillade Gwibber at sætte dit "
+#~ "Facebook status."
+
+#~ msgid ""
+#~ "<b>1.</b> Click the button below to request\n"
+#~ "a Gwibber login code from Facebook."
+#~ msgstr ""
+#~ "<b>1.</b> Tryk på knappen nedenfor for at bede om en login kode fra Facebook "
+#~ "til Gwibber"
+
+#~ msgid ""
+#~ "<b>2.</b> Copy and paste the one-time code into the entry field below and "
+#~ "then click the Apply button."
+#~ msgstr ""
+#~ "<b>2.</b> Kopiér og indsæt engangskoden i indtastningsfeltet nedenfor og "
+#~ "tryk på Apply knappen."
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "<b>Konto Status</b>"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "<b>Konto Information</b>"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Udseende</b>"
+
+#~ msgid "Append colon to username when replying"
+#~ msgstr "Vedlæg kolon efter brugernavn ved svar"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>Experimentel</b>"
+
+#~ msgid "API key:"
+#~ msgstr "API nøgle:"
+
+#~ msgid "App Key:"
+#~ msgstr "Applikationsnøgle:"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "Autorisér status ændringer"
+
+#~ msgid "About Gwibber"
+#~ msgstr "Om Gwibber"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Opdatér</b>"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Vinduesopførsel</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>Advisering</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Tema</b>"
+
+#~ msgid "Domain:"
+#~ msgstr "Domæne:"
+
+#~ msgid "Display bubbles"
+#~ msgstr "Vis bobler"
+
+#~ msgid ""
+#~ "Gwibber is an open source microblogging client for GNOME that supports "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca and other popular social web "
+#~ "services."
+#~ msgstr ""
+#~ "Gwibber er en open source mikroblogging klient til GNOME som understøtter "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca, og andre populære web services."
+
+#~ msgid "Gwibber Web Site"
+#~ msgstr "Gwibber hjemmeside"
+
+#~ msgid "Facebook Authorization"
+#~ msgstr "Facebook autorisation"
+
+#~ msgid "Comment Color:"
+#~ msgstr "Kommentar farve:"
+
+#~ msgid "Feed URL:"
+#~ msgstr "Feed URL:"
+
+#~ msgid "Digg Color:"
+#~ msgstr "Digg farve:"
+
+#~ msgid "Message Color:"
+#~ msgstr "Besked farve:"
+
+#~ msgid "Hide taskbar entry"
+#~ msgstr "Gem statuslinje indlæg"
+
+#~ msgid "Username:"
+#~ msgstr "Brugernavn:"
+
+#~ msgid "Show tray icon"
+#~ msgstr "Vis statusikon"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or\n"
+#~ "modify it under the terms of the GNU General Public License\n"
+#~ "as published by the Free Software Foundation; either version 2\n"
+#~ "of the License, or (at your option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Dette program er fri software; du må videredistribuere det og/eller\n"
+#~ "modificere det under betingelserne af GNU General Public License licensen\n"
+#~ "som udgivet af Free Software Foundation; enten udgave 2\n"
+#~ "af licensen eller senere udgaver (efter dit valg).\n"
+#~ "\n"
+#~ "Dette program er distribueret med et ønske at det vil være nyttigt,\n"
+#~ "men UDEN GARANTI; uden den underforståede garanti bestående i\n"
+#~ "SALGBARHED eller EGNETHED TIL ET BESTEMT FORMÅL. Se\n"
+#~ "GNU General Public License licensteksten for yderligere detaljer.\n"
+#~ "\n"
+#~ "De skulle have modtaget et kopi af GNU General Public License licensen \n"
+#~ "med dette program. Hvis ikke kan de skrive til Free Software\n"
+#~ "Foundation Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+#~ "USA.\n"
+
+#~ msgid "_Authorize Gwibber"
+#~ msgstr "_Autorisér Gwibber"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "Minimer til statusområdet ved lukning"
+
+#~ msgid "Minutes between refresh:  "
+#~ msgstr "Minutter i mellem genopfriskning:  "
+
+#~ msgid "Password:"
+#~ msgstr "Adgangskode:"
+
+#~ msgid "Request Login Code"
+#~ msgstr "Bestil adgangskode"
+
+#~ msgid "Copyright (C) 2007-2009 Gwibber Team"
+#~ msgstr "Copyright (C) 2007-2009 Gwibber Team"
+
+#~ msgid "Get Jaiku API key"
+#~ msgstr "Hent Jaiku API nøgle"
+
+#~ msgid "Get Ping.fm key"
+#~ msgstr "Hent Ping.fm nøgle"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Josef Assad https://launchpad.net/~josefassad"

@@ -1,0 +1,278 @@
+# Finnish translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-02-19 10:15+0000\n"
+"Last-Translator: Timo Jyrinki <timo-jyrinki@ubuntu.com>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr "Gwibber – sosiaaliset asetukset"
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Mikrobloggaussovellus Gnomelle"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr "Sosiaaliset asetukset"
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr "Gwibber – sosiaaliset käyttäjätilit"
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr "Sosiaaliset käyttäjätilit"
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr "Gwibber – sosiaaliset mediat"
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr "Sosiaaliset mediat"
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Lähetä"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr "_Muokkaa"
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "O_hje"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Päivitä"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Etsi"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Käyttäjätilit"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Asetukset"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "_Tietoja"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Lopeta"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr "_Uusi virta"
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "_Sulje ikkuna"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr "_Sulje virta"
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Hae ohjeita verkosta..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Käännä tämä ohjelma..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr "Ilmoita ongelmasta..."
+
+#~ msgid "Messages"
+#~ msgstr "Viestit"
+
+#~ msgid "Preferences"
+#~ msgstr "Asetukset"
+
+#~ msgid ""
+#~ "<b>3.</b> Click the button below to give Gwibber permission to set your "
+#~ "Facebook status."
+#~ msgstr ""
+#~ "<b>3.</b> Alapuolella olevalla painikkeella annat Gwibberille luvan asettaa "
+#~ "Facebook-tilasi."
+
+#~ msgid ""
+#~ "<b>1.</b> Click the button below to request\n"
+#~ "a Gwibber login code from Facebook."
+#~ msgstr ""
+#~ "<b>1.</b> Alapuolella olevalla painikkeella voit pyytää\n"
+#~ "Gwibberille sisäänkirjautumiskoodia Facebookilta."
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "<b>Tilin tila</b>"
+
+#~ msgid "API key:"
+#~ msgstr "API-avain:"
+
+#~ msgid "About Gwibber"
+#~ msgstr "Tietoja Gwibberistä"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Ikkunan käyttäytyminen</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Teema</b>"
+
+#~ msgid "Append colon to username when replying"
+#~ msgstr "Lisää kaksoispiste käyttäjänimen perään vastatessa"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "Salli tilamuutokset"
+
+#~ msgid "Display bubbles"
+#~ msgstr "Näytä kuplat"
+
+#~ msgid "Comment Color:"
+#~ msgstr "Kommenttiväri:"
+
+#~ msgid "Message Color:"
+#~ msgstr "Viestin väri:"
+
+#~ msgid "Password:"
+#~ msgstr "Salasana:"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "Pienennä tilariville suljettaessa"
+
+#~ msgid "Request Login Code"
+#~ msgstr "Pyydä sisäänkirjautumistunnusta"
+
+#~ msgid "Username:"
+#~ msgstr "Käyttäjänimi:"
+
+#~ msgid "_Authorize Gwibber"
+#~ msgstr "_Valtuuta Gwibber"
+
+#~ msgid "Digg Color:"
+#~ msgstr "Digg-väri:"
+
+#~ msgid "Hide taskbar entry"
+#~ msgstr "Piilota ikkunaluettelosta"
+
+#~ msgid ""
+#~ "<b>2.</b> Copy and paste the one-time code into the entry field below and "
+#~ "then click the Apply button."
+#~ msgstr ""
+#~ "<b>2.</b> Kopioi ja liitä kertakäyttöinen koodi alapuolella olevaan kenttään "
+#~ "ja napsauta Toteuta-painiketta."
+
+#~ msgid "_Receive Messages"
+#~ msgstr "_Vastaanota viestejä"
+
+#~ msgid "_Send Messages"
+#~ msgstr "_Lähetä viestejä"
+
+#~ msgid "Gwibber Microblogging Client"
+#~ msgstr "Gwibber-mikrobloggaus"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "<b>Tilin tiedot</b>"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>Kokeelliset</b>"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Ulkoasu</b>"
+
+#~ msgid "App Key:"
+#~ msgstr "Sovellusavain:"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Päivitys</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>Ilmoitukset</b>"
+
+#~ msgid "Facebook Authorization"
+#~ msgstr "Facebook-valtuutus"
+
+#~ msgid "Domain:"
+#~ msgstr "Verkkoalue:"
+
+#~ msgid "Copyright (C) 2007-2009 Gwibber Team"
+#~ msgstr "Tekijänoikeudet (C) 2007-2009 Gwibber-tiimi"
+
+#~ msgid "Feed URL:"
+#~ msgstr "Syötteen URL"
+
+#~ msgid "Get Jaiku API key"
+#~ msgstr "Nouda Jaikun API-avain"
+
+#~ msgid "Get Ping.fm key"
+#~ msgstr "Nouda Ping.fm-avain"
+
+#~ msgid "Show tray icon"
+#~ msgstr "Näytä ilmoitusalueen kuvake"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or\n"
+#~ "modify it under the terms of the GNU General Public License\n"
+#~ "as published by the Free Software Foundation; either version 2\n"
+#~ "of the License, or (at your option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Tämä on vapaa ohjelma; sitä on sallittu levittää edelleen ja/tai\n"
+#~ "muuttaa GNU yleisen lisenssin (GPL-lisenssin) ehtojen mukaan \n"
+#~ "sellaisina kuin Free Software Foundation on ne julkaissut; joko \n"
+#~ "lisenssin version 2, tai (valinnan mukaan) minkä tahansa \n"
+#~ "myöhemmän version mukaisesti.\n"
+#~ "\n"
+#~ "Tätä ohjelmaa levitetään siinä toivossa, että se olisi hyödyllinen, \n"
+#~ "mutta ilman mitään takuuta; ilman edes hiljaista takuuta \n"
+#~ "kaupallisesti hyväksyttävästä laadusta tai soveltuvuudesta tiettyyn \n"
+#~ "tarkoitukseen. Katso GPL-lisenssistä lisää yksityiskohtia.\n"
+#~ "\n"
+#~ "Tämän ohjelman mukana pitäisi tulla kopio GPL-lisenssistä; \n"
+#~ "jos näin ei ole, kirjoita osoitteeseen Free Software Foundation Inc., \n"
+#~ "51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.\n"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Timo Jyrinki https://launchpad.net/~timo-jyrinki"

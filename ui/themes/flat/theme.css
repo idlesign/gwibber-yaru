@@ -1,0 +1,20 @@
+<%include file="css.mako" />
+<%include file="defaultcss.mako" />
+
+* {color: #222; }
+
+body { 
+  margin: 0px;
+}
+a { color: #204a87 }
+.time a { color: #666 }
+.basemsg .message {
+  padding: 5px;
+  margin-bottom: 0px;
+  background: rgba(0,0,0,0.1);
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-bottom: 1px solid #bbb;
+  -webkit-border-radius: 0px;
+}

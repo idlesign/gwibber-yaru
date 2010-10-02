@@ -1,0 +1,199 @@
+# Arabic translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-02-13 20:25+0000\n"
+"Last-Translator: MaXeR <Unknown>\n"
+"Language-Team: Arabic <ar@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr "إعدادات Gwibber Social"
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "عميل التدوين المصغّر لجنوم"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr "إعدادت الشبكات الاجتماعية"
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr "حسابات Gwibber الاجتماعية"
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr "الحسابات الاجتماعية"
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr "Gwibber عميل الشبكات الاجتماعية"
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr "عميل شبكات اجتماعية"
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "أرسل"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_غويبر"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr "تحرير"
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "م_ساعدة"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_حدّث"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "ا_بحث"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_الحسابات"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_تفضيلات"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "_حول"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "أ_نهِ"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "أ_غلق النّافذة"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "احصل على المساعدة من شبكة الانترنت..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "ترجم هذا التطبيق..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr "إبلاغ عن مشكلة..."
+
+#~ msgid "_Receive Messages"
+#~ msgstr "_إستقبل الرسائل"
+
+#~ msgid "_Send Messages"
+#~ msgstr "_أرسل الرسائل"
+
+#~ msgid "Preferences"
+#~ msgstr "التفضيلات"
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "</b>حالة الحساب<b>"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "</b>معلومات حول الحساب<b>"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>المظهر</b>"
+
+#~ msgid "About Gwibber"
+#~ msgstr "حول Gwibber"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>سلوك النافذة</b>"
+
+#~ msgid "Feed URL:"
+#~ msgstr "عنوان التلقيمة:"
+
+#~ msgid "Digg Color:"
+#~ msgstr "لون Digg:"
+
+#~ msgid "Gwibber Web Site"
+#~ msgstr "موقع Gwibber"
+
+#~ msgid "Facebook Authorization"
+#~ msgstr "ترخيص Facebook"
+
+#~ msgid "Comment Color:"
+#~ msgstr "لون التّّعليق:"
+
+#~ msgid "Message Color:"
+#~ msgstr "لون الرسالة:"
+
+#~ msgid "Password:"
+#~ msgstr "كلمة السرّ:"
+
+#~ msgid "Username:"
+#~ msgstr "اسم المستخدِم:"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "صغّر الى لوحة النظام"
+
+#~ msgid "Messages"
+#~ msgstr "الرسائل"
+
+#~ msgid "API key:"
+#~ msgstr "مفتاح الAPI:"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "إسمح بتغيير الحالة"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>تجريبي</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>تحديث</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>القالب</b>"
+
+#~ msgid "Hide taskbar entry"
+#~ msgstr "إخفاء أيقونة شريط المهام"
+
+#~ msgid "Display bubbles"
+#~ msgstr "إظهار فقاعات"
+
+#~ msgid "Minutes between refresh:  "
+#~ msgstr "الدقائق بين التحديثات:  "
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  MaXeR https://launchpad.net/~themaxer"

@@ -1,0 +1,186 @@
+* {
+  color: black;
+}
+
+.imgbox {
+  -webkit-border-radius: 5px;
+}
+
+.tableBubble {
+	width:100%;
+}
+
+.tableBubble .tl {
+	height:8px;
+}
+
+.tableBubble .tr {
+	width:8px;
+	height:8px;
+}
+
+.message {
+	padding:0 1em 0 1.25em;
+}
+
+.tableBubble .message img {
+	vertical-align: -15%;
+}
+
+.tableBubble .messageRight {
+}
+
+.tableBubble .bl {
+	height:10px;
+}
+
+.tableBubble .br {
+	width:8px;
+	height:10px;
+}
+
+.text {
+  display: inline-block;
+  padding-top: 10px
+}
+
+.myBubble .indicator {
+	position:absolute;
+	top:8px;
+	left:0;
+	width:13px;
+	height:11px;
+}
+
+.incomingItem .myBubble, .incomingReply .myBubble {
+	position:relative;
+	padding-left:10px;
+	margin-left: 53px;
+}
+
+.chatItem .imgbox {
+	float:left;
+}
+
+/*incoming */
+
+.incomingItem .myBubble .indicator {
+	background:url("images/yellowIndicator.png") no-repeat top left;
+}
+
+.incomingItem .tableBubble .tl {
+	background:url("images/yellowCurves.png") no-repeat top left;
+}
+
+.incomingItem .tableBubble .tr {
+	background:url("images/yellowCurves.png") no-repeat top right;
+}
+
+.incomingItem .tableBubble .head {
+	background:url("images/yellowCurves.png") no-repeat -10px 0;
+}
+
+.incomingItem .tableBubble .message {
+	background:url("images/yellowBackground.png") repeat-y top left;
+}
+
+.incomingItem .tableBubble .messageRight {
+	background:url("images/yellowBackground.png") repeat-y top right;
+}
+
+.incomingItem .tableBubble .bl {
+	background:url("images/yellowCurves.png") no-repeat bottom left;
+}
+
+.incomingItem .tableBubble .br {
+	background:url("images/yellowCurves.png") no-repeat bottom right;
+}
+
+/* reply */
+
+.incomingReply .myBubble .indicator {
+	background:url("images/redIndicator.png") no-repeat top left;
+}
+
+.incomingReply .tableBubble .tl {
+	background:url("images/redCurves.png") no-repeat top left;
+}
+
+.incomingReply .tableBubble .tr {
+	background:url("images/redCurves.png") no-repeat top right;
+}
+
+.incomingReply .tableBubble .head {
+	background:url("images/redCurves.png") no-repeat -10px 0;
+}
+
+.incomingReply .tableBubble .message {
+	background:url("images/redBackground.png") repeat-y top left;
+}
+
+.incomingReply .tableBubble .messageRight {
+	background:url("images/redBackground.png") repeat-y top right;
+}
+
+.incomingReply .tableBubble .bl {
+	background:url("images/redCurves.png") no-repeat bottom left;
+}
+
+.incomingReply .tableBubble .br {
+	background:url("images/redCurves.png") no-repeat bottom right;
+}
+
+/* outgoing */
+
+.outgoingItem .myBubble .indicator {
+	background:url("images/greenIndicator2.png") no-repeat top left;
+}
+
+.outgoingItem .tableBubble .tl {
+	background:url("images/greenCurves.png") no-repeat top left;
+}
+
+.outgoingItem .tableBubble .tr {
+	background:url("images/greenCurves.png") no-repeat top right;
+}
+
+.outgoingItem .tableBubble .head {
+	background:url("images/greenCurves.png") no-repeat -10px 0;
+}
+
+.outgoingItem .tableBubble .message {
+	background:url("images/greenBackground.png") repeat-y top left;
+}
+
+.outgoingItem .tableBubble .messageRight {
+	background:url("images/greenBackground.png") repeat-y top right;
+}
+
+.outgoingItem .tableBubble .bl {
+	background:url("images/greenCurves.png") no-repeat bottom left;
+}
+
+.outgoingItem .tableBubble .br {
+	background:url("images/greenCurves.png") no-repeat bottom right;
+}
+
+/* alternating */
+
+.outgoingItem .imgbox {
+	float:right;
+}
+
+.outgoingItem .myBubble {
+	position:relative;
+}
+
+.outgoingItem .indicator {
+	position:absolute;
+	right:-11px;
+	top:10px;
+	left:auto;
+}
+
+.outgoingItem .myBubble {
+	margin-right: 65px;
+}

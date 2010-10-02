@@ -1,0 +1,10 @@
+[Desktop Entry]
+_Name=Broadcast Preferences
+_GenericName=Broadcast Preferences
+_X-GNOME-FullName=Broadcast Preferences
+Type=Application
+_Comment=Change your broadcast preferences
+Exec=gwibber-preferences
+Icon=gwibber
+Categories=GTK;GNOME;Settings;
+X-GNOME-Gettext-Domain=gwibber

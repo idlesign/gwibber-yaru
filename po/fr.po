@@ -1,0 +1,302 @@
+# French translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-01-30 04:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr ""
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Client de microblogging pour GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr ""
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr ""
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr ""
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Envoyer"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr ""
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "_Aide"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Actualiser"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Rechercher"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Comptes"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Préférences"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "_À propos"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Quitter"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "_Fermer la fenêtre"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Obtenir de l'aide en ligne..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Traduire cette application…"
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr ""
+
+#~ msgid "Messages"
+#~ msgstr "Messages"
+
+#~ msgid "Preferences"
+#~ msgstr "Préférences"
+
+#~ msgid ""
+#~ "<b>3.</b> Click the button below to give Gwibber permission to set your "
+#~ "Facebook status."
+#~ msgstr ""
+#~ "<b>3.</b> Cliquez le bouton ci-dessous pour donner à Gwibber la permission "
+#~ "de changer votre statut Facebook."
+
+#~ msgid ""
+#~ "<b>2.</b> Copy and paste the one-time code into the entry field below and "
+#~ "then click the Apply button."
+#~ msgstr ""
+#~ "<b>2.</b> Copiez et collez ce code à usage unique dans le champ de saisie ci-"
+#~ "dessous et cliquez sur le bouton Appliquer."
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "<b>Statut du compte</b>"
+
+#~ msgid ""
+#~ "<b>1.</b> Click the button below to request\n"
+#~ "a Gwibber login code from Facebook."
+#~ msgstr ""
+#~ "<b>1.</b> Cliquez le bouton ci dessous pour demander\n"
+#~ "un code identifiant Gwibber auprès de Facebook."
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Apparence</b>"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "<b>Informations du compte</b>"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>Expérimental</b>"
+
+#~ msgid "App Key:"
+#~ msgstr "Clé de l'application :"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "Autoriser les changements de statut"
+
+#~ msgid "API key:"
+#~ msgstr "Clé de l'API :"
+
+#~ msgid "About Gwibber"
+#~ msgstr "A propos de Gwibber"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Mise à jour</b>"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Comportement de la fenêtre</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>Notification</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Thème</b>"
+
+#~ msgid "Domain:"
+#~ msgstr "Domaine :"
+
+#~ msgid "Gwibber Web Site"
+#~ msgstr "Site web de Gwibber"
+
+#~ msgid "Feed URL:"
+#~ msgstr "URL du flux :"
+
+#~ msgid "Facebook Authorization"
+#~ msgstr "Autorisation Facebook"
+
+#~ msgid "Comment Color:"
+#~ msgstr "Couleur du commentaire :"
+
+#~ msgid "Message Color:"
+#~ msgstr "Couleur du message :"
+
+#~ msgid "Username:"
+#~ msgstr "Nom d'utilisateur :"
+
+#~ msgid "_Authorize Gwibber"
+#~ msgstr "_Autoriser Gwibber"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "Réduire dans la zone de notification à la fermeture"
+
+#~ msgid "Minutes between refresh:  "
+#~ msgstr "Nombre de minutes entre les mises à jour :  "
+
+#~ msgid "Password:"
+#~ msgstr "Mot de passe :"
+
+#~ msgid "Request Login Code"
+#~ msgstr "Demander un code d'identification"
+
+#~ msgid "Show tray icon"
+#~ msgstr "Afficher l'icône de notification"
+
+#~ msgid "_Receive Messages"
+#~ msgstr "_Recevoir des Messages"
+
+#~ msgid "Microblogging Client"
+#~ msgstr "Client de Microblogging"
+
+#~ msgid "Gwibber Microblogging Client"
+#~ msgstr "Client de Microblogging Gwibber"
+
+#~ msgid "Display bubbles"
+#~ msgstr "Afficher les bulles"
+
+#~ msgid "Digg Color:"
+#~ msgstr "Couleur du Digg"
+
+#~ msgid ""
+#~ "Gwibber is an open source microblogging client for GNOME that supports "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca and other popular social web "
+#~ "services."
+#~ msgstr ""
+#~ "Gwibber est un client open source de microblogging pour GNOME qui supporte "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca et d'autres services web sociaux "
+#~ "populaires."
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or\n"
+#~ "modify it under the terms of the GNU General Public License\n"
+#~ "as published by the Free Software Foundation; either version 2\n"
+#~ "of the License, or (at your option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou\n"
+#~ "le modifier conformément aux termes de la Licence Publique Générale GNU "
+#~ "(GPL)\n"
+#~ "telle que publiée par la Free Software Foundation ; version 2\n"
+#~ "de la licence, ou encore (à votre choix) toute version ultérieure.\n"
+#~ "\n"
+#~ "Ce programme est distribué dans l’espoir qu’il sera utile,\n"
+#~ "mais SANS AUCUNE GARANTIE ; sans même la garantie implicite\n"
+#~ "de COMMERCIALISATION ou D’ADAPTATION A UN OBJET PARTICULIER.\n"
+#~ "Pour plus de détails, voir la Licence Publique Générale GNU.\n"
+#~ "\n"
+#~ "Un exemplaire de la Licence Publique Générale GNU doit être fourni\n"
+#~ "avec ce programme ; si ce n’est pas le cas, écrivez à la Free Software\n"
+#~ "Foundation Inc., 51 Franklin Street, 5ème étage, Boston, MA 02110-1301, "
+#~ "Etats-Unis.\n"
+
+#~ msgid "Append colon to username when replying"
+#~ msgstr ""
+#~ "Ajouter un point-virgule après le nom d'utilisateur lors d'une réplique"
+
+#~ msgid "Hide taskbar entry"
+#~ msgstr "Enlever la fenêtre de la barre des tâches"
+
+#~ msgid "Copyright (C) 2007-2009 Gwibber Team"
+#~ msgstr "Copyright (C) 2007-2009 L'équipe de Gwibber"
+
+#~ msgid "Get Jaiku API key"
+#~ msgstr "Obtenir la clé d'API de Jaiku"
+
+#~ msgid "Get Ping.fm key"
+#~ msgstr "Obtenir la clé d'API de Ping.fm"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Aghilès Aït-Larbi https://launchpad.net/~sithran\n"
+#~ "  Aurélien Bombo https://launchpad.net/~abombox\n"
+#~ "  Cyril https://launchpad.net/~cyrilarnaud\n"
+#~ "  Damien Clauzel https://launchpad.net/~damien-clauzel\n"
+#~ "  Guilhem Lettron https://launchpad.net/~guilhem-fr\n"
+#~ "  Nizar Kerkeni https://launchpad.net/~nizarus\n"
+#~ "  Toutoul https://launchpad.net/~labstag\n"
+#~ "  guigui14100 https://launchpad.net/~guigui14100"

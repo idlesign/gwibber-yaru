@@ -1,0 +1,225 @@
+# German translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-02-15 15:23+0000\n"
+"Last-Translator: Jochen Skulj <jochen@jochenskulj.de>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr "Gwibber-Einstellungen Soziale Nezwerke"
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Microblogging-Client für GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr "Einstellungen für Soziale Netzwerke"
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr "Gwibber-Konten für Soziale Netzwerke"
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr "Konten für Soziale Netzwerke"
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr "Gwibber Anwendung für Soziale Netzwerke"
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr "Anwendung für Soziale Netzwerke"
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Senden"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr "_Bearbeiten"
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "_Hilfe"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Aktualisieren"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Suchen"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Konten"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Einstellungen"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "Ü_ber"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Beenden"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr "_Neuer Kanal"
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "Fenster _schließen"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr "Kanal _schließen"
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Online Hilfe erhalten …"
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Diese Anwendung übersetzen ..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr "Ein Problem melden ..."
+
+#~ msgid "_Send Messages"
+#~ msgstr "Nachrichten _senden"
+
+#~ msgid "_Receive Messages"
+#~ msgstr "Nachrichten _empfangen"
+
+#~ msgid "Preferences"
+#~ msgstr "Einstellungen"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Aussehen</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>Benachrichtigung</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Thema</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Aktualisierung</b>"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Fensterverhalten</b>"
+
+#~ msgid "About Gwibber"
+#~ msgstr "Über Gwibber"
+
+#~ msgid "API key:"
+#~ msgstr "API-Schlüssel:"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "Statusänderungen autorisieren"
+
+#~ msgid "Domain:"
+#~ msgstr "Domain:"
+
+#~ msgid "Feed URL:"
+#~ msgstr "Feed-URL:"
+
+#~ msgid "Gwibber Web Site"
+#~ msgstr "Gwibber Homepage"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "Beim Schließen in das Benachrichtigungsfeld minimieren"
+
+#~ msgid "Password:"
+#~ msgstr "Passwort:"
+
+#~ msgid "Username:"
+#~ msgstr "Benutzername:"
+
+#~ msgid "_Authorize Gwibber"
+#~ msgstr "Gwibber _autorisieren"
+
+#~ msgid "Display bubbles"
+#~ msgstr "Blasen anzeigen"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or\n"
+#~ "modify it under the terms of the GNU General Public License\n"
+#~ "as published by the Free Software Foundation; either version 2\n"
+#~ "of the License, or (at your option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful,\n"
+#~ "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+#~ "GNU General Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License\n"
+#~ "along with this program; if not, write to the Free Software\n"
+#~ "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, "
+#~ "USA.\n"
+#~ msgstr ""
+#~ "Dieses Programm ist freie Software, du kannst es zu den Bedingungen \n"
+#~ "der GNU General Public License, veröffentlicht von der Free Software "
+#~ "Foundation,\n"
+#~ "entweder Version 2 der Lizenz oder (nach deiner Wahl) jeder späteren "
+#~ "Version, \n"
+#~ "weitergeben und / oder verändern.\n"
+#~ "\n"
+#~ "Dieses Programm wird in der Hoffnung, nützlich zu sein,\n"
+#~ "aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie \n"
+#~ "der Marktgängigkeit oder Eignung für einen bestimmten Zweck. \n"
+#~ "Beachte auch die GNU General Public License für weitere Details.\n"
+#~ "\n"
+#~ "Du solltest eine Kopie der GNU General Public License \n"
+#~ "zusammen mit diesem Programm erhalten haben. Falls nicht, schreibe an \n"
+#~ "die Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, "
+#~ "MA 02110-1301, USA.\n"
+
+#~ msgid ""
+#~ "<b>1.</b> Click the button below to request\n"
+#~ "a Gwibber login code from Facebook."
+#~ msgstr ""
+#~ "<b>1.</b> Klicke den Knopf unten um einen\n"
+#~ "Gwibber-Anmeldeschlüssel von Facebook anzufordern."
+
+#~ msgid "Copyright (C) 2007-2009 Gwibber Team"
+#~ msgstr "Copyright (C) 2007-2009 Gwibber Team"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Jochen Skulj https://launchpad.net/~joskulj\n"
+#~ "  JohnTooray https://launchpad.net/~ibot8\n"
+#~ "  Mathias Brodala https://launchpad.net/~mathbr\n"
+#~ "  Michael Keppler https://launchpad.net/~bananeweizen\n"
+#~ "  MixCool https://launchpad.net/~mixcool"

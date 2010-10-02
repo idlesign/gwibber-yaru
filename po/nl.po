@@ -1,0 +1,242 @@
+# Dutch translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-02-19 14:31+0000\n"
+"Last-Translator: Joshua Lückers <Unknown>\n"
+"Language-Team: Dutch <nl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr "Sociale instellingen Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Microbloggingcliënt voor GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr "Sociale instellingen"
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr "Gwibber sociale accounts"
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr "Sociale accounts"
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr "Gwibber sociaal programma"
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr "Sociaal programma"
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Versturen"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr "B_ewerken"
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "_Help"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "Ve_rnieuwen"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Zoeken"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Accounts"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Voorkeuren"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "I_nfo"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Afsluiten"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr ""
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "Venster sl_uiten"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr ""
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Online-hulp..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Deze toepassing vertalen..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr "Rapporteer een probleem..."
+
+#~ msgid "Messages"
+#~ msgstr "Berichten"
+
+#~ msgid "_Receive Messages"
+#~ msgstr "Berichten _ontvangen"
+
+#~ msgid "_Send Messages"
+#~ msgstr "Berichten _versturen"
+
+#~ msgid "Preferences"
+#~ msgstr "Voorkeuren"
+
+#~ msgid "<b>Account Information</b>"
+#~ msgstr "<b>Accountinformatie</b>"
+
+#~ msgid "About Gwibber"
+#~ msgstr "Over Gwibber"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Venstergedrag</b>"
+
+#~ msgid "<b>Notification</b>"
+#~ msgstr "<b>Herinnering</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Thema</b>"
+
+#~ msgid "Domain:"
+#~ msgstr "Domein:"
+
+#~ msgid "Gwibber Web Site"
+#~ msgstr "Gwibber-website"
+
+#~ msgid "Password:"
+#~ msgstr "Wachtwoord:"
+
+#~ msgid "Show tray icon"
+#~ msgstr "Systeemvakpictogram tonen"
+
+#~ msgid "Username:"
+#~ msgstr "Gebruikersnaam:"
+
+#~ msgid ""
+#~ "<b>3.</b> Click the button below to give Gwibber permission to set your "
+#~ "Facebook status."
+#~ msgstr ""
+#~ "<b>3.</b> Klik op de knop hieronder om Gwibber toestemming te geven om uw "
+#~ "Facebook-status in te stellen."
+
+#~ msgid "<b>Account Status</b>"
+#~ msgstr "<b>Accountstatus</b>"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Update</b>"
+
+#~ msgid ""
+#~ "<b>1.</b> Click the button below to request\n"
+#~ "a Gwibber login code from Facebook."
+#~ msgstr ""
+#~ "<b>1.</b> Klik op de knop hieronder om een Gwibber-inlogcode van  Facebook "
+#~ "op te vragen."
+
+#~ msgid "Facebook Authorization"
+#~ msgstr "Facebook-autorisatie"
+
+#~ msgid "Authorize Status Changes"
+#~ msgstr "Statuswijzigingen toestaan"
+
+#~ msgid "Comment Color:"
+#~ msgstr "Kleur opmerkingen:"
+
+#~ msgid "Message Color:"
+#~ msgstr "Kleur bericht:"
+
+#~ msgid "Minutes between refresh:  "
+#~ msgstr "Minuten tussen vernieuwen:  "
+
+#~ msgid "_Authorize Gwibber"
+#~ msgstr "Gwibber _autoriseren"
+
+#~ msgid "Request Login Code"
+#~ msgstr "Inlogcode aanvragen"
+
+#~ msgid "Minimize to tray on close"
+#~ msgstr "Naar systeemvak minlmaliseren bij het afsluiten"
+
+#~ msgid ""
+#~ "Gwibber is an open source microblogging client for GNOME that supports "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca and other popular social web "
+#~ "services."
+#~ msgstr ""
+#~ "Gwibber is een open bron microblogging-cliënt voor GNOME dat werkt met "
+#~ "Twitter, Jaiku, Facebook, Pownce, Identi.ca en andere populaire sociale "
+#~ "webservices."
+
+#~ msgid "Append colon to username when replying"
+#~ msgstr "Voeg dubbele punt toe aan gebruikersnaam bij het antwoorden"
+
+#~ msgid "<b>Appearance</b>"
+#~ msgstr "<b>Weergave</b>"
+
+#~ msgid "<b>Experimental</b>"
+#~ msgstr "<b>Experimenteel</b>"
+
+#~ msgid "Digg Color:"
+#~ msgstr "Kleur Digg:"
+
+#~ msgid "Hide taskbar entry"
+#~ msgstr "Invoer taakbalk verbergen"
+
+#~ msgid "Display bubbles"
+#~ msgstr "Ballonnen tonen"
+
+#~ msgid "Copyright (C) 2007-2009 Gwibber Team"
+#~ msgstr "Copyright (C) 2007-2009 Gwibber Team"
+
+#~ msgid "Feed URL:"
+#~ msgstr "Feed-URL:"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Jochem https://launchpad.net/~jochem56\n"
+#~ "  Joshua Lückers https://launchpad.net/~joshualuckers\n"
+#~ "  rob https://launchpad.net/~rvdb"

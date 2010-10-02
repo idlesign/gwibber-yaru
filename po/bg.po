@@ -1,0 +1,151 @@
+# Bulgarian translation for gwibber
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the gwibber package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gwibber\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-09 14:56-0500\n"
+"PO-Revision-Date: 2010-02-16 13:46+0000\n"
+"Last-Translator: Svetoslav Stefanov <svetlisashkov@yahoo.com>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2010-02-23 05:00+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../gwibber-preferences.desktop.in.h:1 ../gwibber-accounts.desktop.in.h:1
+#: ../gwibber.desktop.in.h:1
+msgid "Gwibber"
+msgstr "Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:2
+msgid "Gwibber Social Settings"
+msgstr "Социални настройки на Gwibber"
+
+#: ../gwibber-preferences.desktop.in.h:3 ../gwibber-accounts.desktop.in.h:3
+#: ../gwibber.desktop.in.h:3
+msgid "Microblogging client for GNOME"
+msgstr "Микроблог клиент за GNOME"
+
+#: ../gwibber-preferences.desktop.in.h:4
+msgid "Social Settings"
+msgstr "Социални настройки"
+
+#: ../gwibber-accounts.desktop.in.h:2
+msgid "Gwibber Social Accounts"
+msgstr "Социални регистрации на Gwibber"
+
+#: ../gwibber-accounts.desktop.in.h:4
+msgid "Social Accounts"
+msgstr "Социални регистрации"
+
+#: ../gwibber.desktop.in.h:2
+msgid "Gwibber Social Client"
+msgstr "Социален клиент Gwibber"
+
+#: ../gwibber.desktop.in.h:4
+msgid "Social Client"
+msgstr "Социален клиент"
+
+#: ../gwibber/client.py:115
+msgid "Send"
+msgstr "Изпращане"
+
+#: ../gwibber/client.py:205
+msgid "_Gwibber"
+msgstr "_Gwibber"
+
+#: ../gwibber/client.py:206
+msgid "_Edit"
+msgstr "_Редактиране"
+
+#: ../gwibber/client.py:207
+msgid "_Help"
+msgstr "_Помощ"
+
+#: ../gwibber/client.py:209
+msgid "_Refresh"
+msgstr "_Обновяване"
+
+#: ../gwibber/client.py:210
+msgid "_Search"
+msgstr "_Търсене"
+
+#: ../gwibber/client.py:211
+msgid "_Accounts"
+msgstr "_Регистрации"
+
+#: ../gwibber/client.py:212
+msgid "_Preferences"
+msgstr "_Настройки"
+
+#: ../gwibber/client.py:213
+msgid "_About"
+msgstr "_Относно"
+
+#: ../gwibber/client.py:214
+msgid "_Quit"
+msgstr "_Затваряне"
+
+#: ../gwibber/client.py:216
+msgid "_New Stream"
+msgstr "_Нов поток"
+
+#: ../gwibber/client.py:217
+msgid "_Close Window"
+msgstr "_Затваряне на прозореца"
+
+#: ../gwibber/client.py:218
+msgid "_Close Stream"
+msgstr "_Затваряне на поток"
+
+#: ../gwibber/client.py:220
+msgid "Get Help Online..."
+msgstr "Получаване на помощ в Интернет..."
+
+#: ../gwibber/client.py:221
+msgid "Translate This Application..."
+msgstr "Помогнете с превода на това приложение ..."
+
+#: ../gwibber/client.py:222
+msgid "Report A Problem..."
+msgstr "Съобщаване за проблем..."
+
+#~ msgid "_Receive Messages"
+#~ msgstr "_Получаване на съобщения"
+
+#~ msgid "_Send Messages"
+#~ msgstr "_Изпращане на съобщения"
+
+#~ msgid "Messages"
+#~ msgstr "Съобщения"
+
+#~ msgid "Preferences"
+#~ msgstr "Предпочитания"
+
+#~ msgid "About Gwibber"
+#~ msgstr "Относно Gwibber"
+
+#~ msgid "<b>Update</b>"
+#~ msgstr "<b>Подновяване</b>"
+
+#~ msgid "<b>Window Behavior</b>"
+#~ msgstr "<b>Поведение на прозореца</b>"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Тема</b>"
+
+#~ msgid "Domain:"
+#~ msgstr "Домейн:"
+
+#~ msgid "Password:"
+#~ msgstr "Парола:"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Launchpad Contributions:\n"
+#~ "  Svetoslav Stefanov https://launchpad.net/~svetlisashkov"

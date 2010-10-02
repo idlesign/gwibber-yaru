@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ $# -ne 1 ];
+then
+    echo "usage: gwibber-client <method>"
+    echo "       gwibber-client calls any dbus method exposed"
+    echo "       by the gwibber client"
+    exit
+fi
+
+dbus-send --type=method_call --print-reply --dest=com.GwibberClient /com/GwibberClient com.GwibberClient.$1
