@@ -1,15 +1,58 @@
-Gwibber
--------
-
-Gwibber is a status management client application for the GNOME desktop
-environment. It can transmit status message updates to Twitter, Jaiku,
-Facebook, and Pidgin.
-
-
-
 gwibber-yaru
-------------
+============
 
-gwibber-yaru is a Gwibber with Ya.ru blog-service support. 
-Based on Gwibber 2.30 (rev 739).
-gwibber-yaru depends on pyyaru library - http://github.com/idlesign/pyyaru
+| gwibber-yaru is a Gwibber with Ya.ru blog-service support. 
+| It depends on pyyaru library - http://github.com/idlesign/pyyaru
+
+| This application is designed as a patch for your existing Gwibber.
+| patcher.sh would eventually copy some files into system directories and change two Gwibber core files.
+
+**patcher.sh is tested on Ubuntu 10.10 only**
+
+*Installation:*
+
+1. Get gwibber-yaru.
+2. Get pyyaru:
+
+ ::
+
+   easy_install pyyaru
+
+3. Ensure Gwibber is installed.
+
+4. Run patcher.sh from gwibber-yaru directory:
+
+ ::
+
+    sudo bash patcher.sh
+
+
+
+По-русски
+---------
+
+| gwibber-yaru добавляет в Gwibber поддержку настроений с блогов Я.ру.
+| Для функционирования требуется библиотека pyyaru - http://github.com/idlesign/pyyaru
+
+| Перед установкой gwibber-yaru, убедитесь, что Gwibber установлен. 
+| При установке gwibber-yaru при помощи patcher.sh в системные директории будут скопированы нужные для работы файлы.
+| Кроме того, два файла из ядра Gwibber будут исправлены.
+
+**Работоспособность patcher.sh проверялась только на Ubuntu 10.10**
+
+*Установка:*
+
+1. Скачиваем gwibber-yaru.
+2. Устанавливаем pyyaru:
+
+ ::
+
+   easy_install pyyaru
+
+3. Установим Gwibber, если он еще не установлен.
+4. Запустим patcher.sh из директории с gwibber-yaru:
+
+ ::
+
+    sudo bash patcher.sh
+
