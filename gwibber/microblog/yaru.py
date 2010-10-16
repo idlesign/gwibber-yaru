@@ -1,9 +1,9 @@
 from time import mktime
+from urllib import quote
 
 from pyyaru import pyyaru
 
 import util
-#from util import log, exceptions
 
 util.log.logger.name = "Ya.ru"
 
@@ -11,8 +11,8 @@ APP_KEY = 'dfd2f087d37e46ceba2f04a1299506b4'
 
 PROTOCOL_INFO = {
   "name": "Ya.ru",
-  "version": 0.1,
-  
+  "version": 0.2,
+
   "config": [
     "username",
     "private:access_token",
@@ -20,13 +20,14 @@ PROTOCOL_INFO = {
     "receive_enabled",
     "send_enabled",
   ],
- 
+
   "authtype": "oauth2",
   "color": "#729FCF",
 
   "features": [
     "receive",
     "send",
+    "user_messages",
   ],
 
   "default_streams": [
@@ -48,10 +49,11 @@ class Client:
 
     def _common(self, entry):
         m = {}
+
         try:
-            m['id'] = entry.id
-            m['protocol'] = 'yaru'
-            m['account'] = self.account['_id']
+            m['mid'] = entry.id
+            m['service'] = 'yaru'
+            m['account'] = self.account['id']
             m['time'] = mktime(entry.updated.timetuple())
             m['text'] = entry.content
             m['to_me'] = ('@%s' % self.account['username']) in entry.content
@@ -60,39 +62,46 @@ class Client:
             m['url'] = entry.links['alternate']
         except: 
             util.log.logger.error('%s failure - %s', PROTOCOL_INFO['name'], entry)
-            
+
         return m
 
     def _user(self, user):
+        if isinstance(user, pyyaru.yaPerson):
+            url = user['links']['www']
+        else:
+            url = user['uri']
+
         return {
             'name': user['name'],
             'nick': user['name'],
             'id': user['id'],
             'image': user['links']['userpic'],
-            'url': user['uri'],
+            'url': url,
             'is_me': user['id'] == self.account['user_id'],
         }
 
-    def _message(self, entry):
+    def _message(self, entry, sender=None):
         message = self._common(entry)
         message['source'] = 'http://my.ya.ru'
         if entry.original is not None:
             message['source'] = entry.original
-        message['sender'] = self._user(entry.author)
+
+        if sender is not None:
+            message['sender'] = sender
+        else:
+            message['sender'] = self._user(entry.author)
         return message
 
     def receive(self, count=util.COUNT, since=None):
-        """Fetch friend status posts. Fall silently."""
+        """Fetch friend status posts."""
         messages = []
-        try:
-            me = pyyaru.yaPerson('/me/').get()
-            entries = me.friends_entries('status')
-            for entry in entries.objects:
-                message = self._message(entry)
-                messages.append(message)
-        except:
-            pass
-        
+
+        me = pyyaru.yaPerson('/me/').get()
+        entries = me.friends_entries('status')
+        for entry in entries.objects:
+            message = self._message(entry)
+            messages.append(message)
+
         return messages
     
     def send(self, message):
@@ -100,3 +109,19 @@ class Client:
         me = pyyaru.yaPerson('/me/').get()
         me.set_status(message)
         return []
+    
+    def user_messages(self, id=None, count=util.COUNT, since=None):
+        """Get entries of a certain person.
+        id param here is not id, as some one like me might think,
+        it is a nick of a person. Funny it is.
+
+        """
+        messages = []
+        person = pyyaru.yaPerson('https://api-yaru.yandex.ru/person/%s' % quote(id.encode('utf-8'))).get()
+        entries = person.entries('status')
+
+        for entry in entries.objects:
+            message = self._message(entry, self._user(person))
+            messages.append(message)
+
+        return messages
