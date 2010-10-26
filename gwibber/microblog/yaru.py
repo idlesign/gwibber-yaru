@@ -11,7 +11,7 @@ APP_KEY = 'dfd2f087d37e46ceba2f04a1299506b4'
 
 PROTOCOL_INFO = {
   "name": "Ya.ru",
-  "version": 0.2,
+  "version": 0.3,
 
   "config": [
     "username",
@@ -28,6 +28,7 @@ PROTOCOL_INFO = {
     "receive",
     "send",
     "user_messages",
+    "delete",
   ],
 
   "default_streams": [
@@ -105,14 +106,34 @@ class Client:
         return messages
     
     def send(self, message):
-        """Post new status message."""
-        me = pyyaru.yaPerson('/me/').get()
-        me.set_status(message)
+        """Posts new status message. 
+        So much fun - it always return empty list, no matter
+        how or what.
+
+        """
+        try:
+            pyyaru.yaPerson('/me/').set_status(message)
+        except pyyaru.yaError, e:
+            util.log.logger.info('Ya.ru publish error: %s' % e)
+        self.receive()
+        return []
+    
+    def delete(self, message):
+        """Deletes status message from server.
+        According to Gwibber creators we should always return 
+        empty list and I'm inclined to think that it is a kind
+        of subtle humor.
+
+        """
+        try:
+            pyyaru.yaEntry(message['mid']).delete()
+        except pyyaru.yaError, e:
+            util.log.logger.info('Ya.ru delete error: %s' % e)
         return []
     
     def user_messages(self, id=None, count=util.COUNT, since=None):
-        """Get entries of a certain person.
-        id param here is not id, as some one like me might think,
+        """Gets entries of a certain person.
+        id param here is not an id, as some one like me might think,
         it is a nick of a person. Funny it is.
 
         """
