@@ -24,11 +24,11 @@ cp -pv gwibber/microblog/yaru.py /usr/lib/python2.6/dist-packages/gwibber/microb
 echo
 echo 'Patching now...'
 
-FILE_GTK='/usr/lib/python2.6/dist-packages/gwibber/lib/gtk/__init__.py'
+FILE_GTK='/usr/share/pyshared/gwibber/lib/gtk/__init__.py'
 FILE_GTK_SEARCH='__all__ = \['
 FILE_GTK_REPLACE='__all__ = \[\"yaru\", '
 
-FILE_DISPATCHER='/usr/lib/python2.6/dist-packages/gwibber/microblog/dispatcher.py'
+FILE_DISPATCHER='/usr/share/pyshared/gwibber/microblog/dispatcher.py'
 FILE_DISPATCHER_SEARCH_1='import twitter,'
 FILE_DISPATCHER_REPLACE_1='import yaru, twitter,'
 FILE_DISPATCHER_SEARCH_2='\"twitter\": twitter,'
