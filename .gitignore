@@ -1,8 +1,3 @@
 *.pyc
-.project
-.pydevproject
-.settings
+.idea
 .bzr
-gwibber/semantic.cache
-semantic.cache
-*.mo
