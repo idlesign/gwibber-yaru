@@ -28,7 +28,6 @@ PROTOCOL_INFO = {
         "send",
         "receive",
         "delete",
-        "user_messages",
         ],
 
     "default_streams": [
@@ -115,6 +114,7 @@ class Client:
         it is a nick of a person. Funny it is.
 
         """
+        # TODO Put it into PROTOCOL_INFO['features'] someday when id would be an id, not bloody name.
         messages = []
         person = pyyaru.yaPerson('https://api-yaru.yandex.ru/person/%s' % quote(id.encode('utf-8'))).get()
         entries = person.entries('status')
