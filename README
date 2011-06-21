@@ -1,20 +1,28 @@
 gwibber-yaru
 ============
 
-| gwibber-yaru is a Gwibber with Ya.ru blog-service support. 
-| It depends on pyyaru library - http://github.com/idlesign/pyyaru
+gwibber-yaru is a Gwibber with Ya.ru blog-service support.
 
-| This application is designed as a plugin for your existing Gwibber.
+It depends on pyyaru library - http://github.com/idlesign/pyyaru
 
+
+Install
+-------
+
+Install script is supplied for Ubuntu. Invoke it with 'sudo ./ubuntu_install.py' while in path containing this readme.
 
 
 
 По-русски
+=========
+
+gwibber-yaru добавляет в Gwibber поддержку настроений с блогов Я.ру.
+
+Для функционирования требуется библиотека pyyaru - http://github.com/idlesign/pyyaru
+
+
+Установка
 ---------
 
-| gwibber-yaru добавляет в Gwibber поддержку настроений с блогов Я.ру.
-| Для функционирования требуется библиотека pyyaru - http://github.com/idlesign/pyyaru
-
-| Перед установкой gwibber-yaru, убедитесь, что Gwibber установлен. 
-
+С плагином поставляется установочный скрипт для Ubuntu. Для установки выполните 'sudo ./ubuntu_install.py', находясь в директории с файлом, который вы читаете.
 
